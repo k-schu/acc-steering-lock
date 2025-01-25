@@ -16,6 +16,8 @@ namespace Havner.AccSteeringLock
         internal int lastRotation;
         static readonly internal Dictionary<string, int> cars = new Dictionary<string, int>()
         {
+            //ROAD
+            {"toyota_gt86", 810},
             // CUP
             {"porsche_991ii_gt3_cup", 800},
             {"porsche_992_gt3_cup", 540},
