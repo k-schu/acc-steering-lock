@@ -154,7 +154,7 @@ namespace Havner.AccSteeringLock
         /// <param name="data"></param>
         public void DataUpdate(PluginManager pluginManager, ref GameData data)
         {
-            if (data.GameName != "AssettoCorsaCompetizione") return;
+            if (data.GameName != "AssettoCorsaEVO") return;
             if (!data.GameRunning)
             {
                 ResetRotation();
